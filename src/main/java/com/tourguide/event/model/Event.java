@@ -49,7 +49,6 @@ public class Event {
     @Column(nullable = false)
     private String townId;
 
-
     @CreatedDate
     private LocalDateTime createdAt;
 

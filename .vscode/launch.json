@@ -14,7 +14,7 @@
             "type": "java",
             "name": "EventApplication",
             "request": "launch",
-            "mainClass": "com.tourguide.events.EventApplication",
+            "mainClass": "com.tourguide.event.EventApplication",
             "projectName": "events"
         }
     ]
