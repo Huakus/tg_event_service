@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tourguide.events.model.EventModel;
+import com.tourguide.events.model.Event;
 import com.tourguide.events.service.EventService;
 
 @RestController
@@ -21,8 +21,8 @@ public class EventController {
     }
 
     @GetMapping
-    public ResponseEntity<List<EventModel>> getAllEvents() {
-        List<EventModel> events = eventService.getAllEvents();
+    public ResponseEntity<List<Event>> getAllEvents() {
+        List<Event> events = eventService.getAllEvents();
         return new ResponseEntity<>(events, HttpStatus.OK);
     }
 }

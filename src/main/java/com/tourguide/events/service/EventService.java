@@ -1,8 +1,8 @@
 package com.tourguide.events.service;
 
 import java.util.List;
-import com.tourguide.events.model.EventModel;
+import com.tourguide.events.model.Event;
 
 public interface EventService {
-    List<EventModel> getAllEvents();
+    List<Event> getAllEvents();
 }
