@@ -1,4 +1,4 @@
-package com.tourguide.events.service.impl;
+package com.tourguide.event.service.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tourguide.events.model.Event;
-import com.tourguide.events.repository.EventRepository;
-import com.tourguide.events.service.EventService;
+import com.tourguide.event.model.Event;
+import com.tourguide.event.repository.EventRepository;
+import com.tourguide.event.service.EventService;
 
 @Service
 public class EventServiceImpl implements EventService {

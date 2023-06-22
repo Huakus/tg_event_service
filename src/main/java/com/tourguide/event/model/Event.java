@@ -1,4 +1,4 @@
-package com.tourguide.events.model;
+package com.tourguide.event.model;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

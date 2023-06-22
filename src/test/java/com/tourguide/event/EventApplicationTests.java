@@ -1,10 +1,10 @@
-package com.tourguide.events;
+package com.tourguide.event;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EventsApplicationTests {
+class EventApplicationTests {
 
 	@Test
 	void contextLoads() {

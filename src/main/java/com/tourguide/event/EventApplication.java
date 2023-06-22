@@ -1,13 +1,13 @@
-package com.tourguide.events;
+package com.tourguide.event;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EventsApplication {
+public class EventApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EventsApplication.class, args);
+		SpringApplication.run(EventApplication.class, args);
 	}
 
 }

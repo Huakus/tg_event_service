@@ -12,9 +12,9 @@
         },
         {
             "type": "java",
-            "name": "EventsApplication",
+            "name": "EventApplication",
             "request": "launch",
-            "mainClass": "com.tourguide.events.EventsApplication",
+            "mainClass": "com.tourguide.events.EventApplication",
             "projectName": "events"
         }
     ]

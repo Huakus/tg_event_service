@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tourguide</groupId>
-	<artifactId>events</artifactId>
+	<artifactId>event</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>events</name>
-	<description>Events micro service for tour guide application</description>
+	<name>event</name>
+	<description>Event micro service for tour guide application</description>
 	<properties>
 		<java.version>20</java.version>
 	</properties>
